@@ -14,7 +14,7 @@ const Login = ({ touched, errors, status }) => {
 
   return (
     <div>
-      <h1>Member Sign Up</h1>
+      <h1>Member Login</h1>
       <div className="form-container">
         <Form>
           <div className="field-container">

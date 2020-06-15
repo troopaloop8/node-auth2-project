@@ -18,7 +18,7 @@ const UsersList = () => {
             console.log(err)
         })
     }, [])
-    
+    console.log(user)
     console.log("poweruser", typeof(user))
     // return (<div>things</div>)
     if (user.length === 0) {
@@ -29,6 +29,7 @@ const UsersList = () => {
             { Object.entries(user).map((data, index) => {
                 return <Users data={data} key={index}/>
             })}
+            jokess
             </div>
             
         )

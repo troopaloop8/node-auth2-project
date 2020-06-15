@@ -20,5 +20,6 @@ module.exports = {
     seeds: {
       directory:path.resolve("database", "seeds")
     },
-  }
+  },
+  
 };
